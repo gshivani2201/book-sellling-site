@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    font-size: 1em;
+    font-family: 'Lora', serif;
+}
+
+header img{
+    float: left;
+    padding-left: 50px;
+    margin: 8px 0;
+    display: block;
+    height: 53px;
+    width: 190px;
+}
+
+div {
+    width: 60%;
+    float: left;
+}
+
+nav {
+    width: 40%;
+    float: left;
+    padding-left: 150px;
+}
+
+li {
+    float: left;
+    width: 20%;
+    list-style: none;
+    margin: 24px 0;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header i {
+    margin-left: 50%
+}
+
+/* middle sections */
+h1 {
+    height: 100px;
+    color: white;
+    background-color: #E67204;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Lora', serif;
+    font-size: 3em;
+}
+
+.fNDiv {
+    width: 50%;
+    float: left;
+    padding: 2% 2% 2% 20%;
+    background-color: #E67204;
+    color: white;
+}
+
+.lNDiv {
+    width: 50%;
+    float: left;
+    padding: 2% 5% 2% 2%;
+    background-color: #E67204;
+    color: white;
+}
+
+#fName , #lName {
+    margin: 0 2%;
+    height: 50px;
+    width: 250px;
+    font-family: 'Lora', serif;
+    padding: 0 1vw;
+    border: none;
+    border-radius: 10px;
+}
+
+.mail {
+    padding: 2% 2% 2% 18%;
+    float: left;
+    width: 100%;
+    background-color: #E67204;
+    color: white;
+}
+
+.mBox {
+    padding: 2% 2% 2% 16%;
+    float: left;
+    width: 100%;
+    background-color: #E67204;
+    color: white;
+}
+
+#email-ad {
+    margin: 0 2%;
+    height: 50px;
+    width: 60%;
+    font-family: 'Lora', serif;
+    padding: 0 1vw;
+    border: none;
+    border-radius: 10px;
+}
+
+#message-box {
+    margin: 0 2%;
+    height: 200px;
+    width: 58%;
+    font-family: 'Lora', serif;
+    padding: 0 1vw 9vw 1vw;
+    border: none;
+    border-radius: 10px;
+}
+
+label {
+    font-family: 'Lora', serif;
+}
+
+/* button */
+
+form + div {
+    background-color: #E67204;
+    width: 100%;
+}
+
+#btn-box {
+    color: #E67204;
+    font-size: 1rem;
+    background-color: white;
+    margin: 0 0 3% 27%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* bottom box */
+.finalSection {
+    background-color: black;
+    color: white;
+    height: 400px;
+    font-family: 'Lora', serif;
+    clear: both;
+}
+
+.finalSection li {
+    list-style: none;
+    float: left;
+    width: 10%;
+    margin: 1% 0;
+}
+
+.finalSection i {
+    color: white;
+    max-height: 10px;
+    width: auto;
+}
+
+.finalSection h2 {
+    clear: both;
+    margin: 2em 0 0.6em 0;
+    font-weight: 600;
+    color: #E67204;
+}
+
+/* bottom box divs */
+.partOne {
+    padding: 5% 6% 6% 6%;
+    width: 50%;
+    height: auto;
+}
+
+.partTwo {
+    padding: 6% 5% 6% 30%;
+    width: 50%; 
+    height: auto;
+}
+
+.partOne p {
+    width: 50%;
+}
+
+h4 {
+    margin: 4% 0;
+    font-weight: 400;
+}
+
+.partTwo a {
+    color: white;
+    text-decoration: none;
+}
+
+.partTwo p {
+    margin: 2% 0;
+}
+
+/* footer */
+footer {
+    height: 50px;
+    padding: 1vw;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Lora', serif;
+}
