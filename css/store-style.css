@@ -5,20 +5,20 @@
 }
 
 /* header */
-header {
+header {             /*parent container*/
     width: 100%;
-    height: 70px;
+    height: 5em;
     font-size: 1em;
     font-family: 'Lora', serif;
+    border-bottom: 1px solid black;
 }
 
 header img{
     float: left;
-    padding-left: 50px;
-    margin: 8px 0;
-    display: block;
-    height: 53px;
-    width: 190px;
+    padding-left: 8em;
+    margin: 0.5em 0;
+    max-width: 18em;
+    height: auto;
 }
 
 div {
@@ -29,31 +29,26 @@ div {
 nav {
     width: 40%;
     float: left;
-    padding-left: 150px;
+    padding-left: 8em;
 }
 
 li {
     float: left;
     width: 20%;
     list-style: none;
-    margin: 24px 0;
-} 
+    margin: 1.8em 0;
+}
 
 header a {
     color: black;
     text-decoration: none;
 }
 
-header i {
-    margin-left: 50%
-} 
-
-
 /* Banner Image */
-header + section {
+/* header + section {
     height: 300px;
     background-color: khaki;
-}
+} */
 
 /* DROP DOWN MENU */
 
@@ -65,7 +60,7 @@ label {
 }
 
 input {
-    border: 1px solid orangered;
+    border: 1px solid #E67204;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,8 +69,9 @@ input {
     font-size: 0.8em;
     font-weight: bold;
     background-color: white;
-    color: orangered;
+    color: #E67204;
     border-radius: 5px;
+    padding: 0.3%;
 }
 
 select {
@@ -92,46 +88,50 @@ select {
 
 /* sections*/
 .booklists {
-    height: 400px;
-    padding: 3% 0;
+    height: 45em;
+    padding: 5em 0;
     font-family: 'Lora', serif;
+    font-size: 10px;             /*parent container's font-size*/
+    overflow: hidden;
 }
-
-h1 {
-    text-align: center;
-    margin: 2% 0;
-} 
 
 
 /* booklists row sections and divs */
+
 .booklists div {
     float: left;
-    width: 25%;
-    padding: 1% 2%;
+    width: 23.4%;
+    height: 41em;
+    padding: 1.5em;
+    margin: 2em 1em;
     font-family: 'Lora', serif;
+    background-color: #e672041c;
+    border-radius: 2em;
 }
 
-.booklists img, h3, .booklists span {
-    padding: 1% 0;
-    max-height: 210px;
+.booklists img, .booklists h3, .booklists span {
+    padding: 0.5em 0;
+    max-height: 13.8em;
     width: auto;
     font-weight: 400;
+    font-size: 1.8em;
 }
 
 /* buttons */
 button {
     color: white;
-    background-color: orangered;
+    background-color: #E67204;
     border: none;
-    font-size: 1em;
+    font-size: 1.9em;
     font-family: Arial, Helvetica, sans-serif, serif;
     font-weight: bold;
-    padding: 2%;
-    border-radius: 5px;
+    padding: 0.3em;
+    border-radius: 0.5em;
     position: relative;
-    top: 30px;
-    left: 151px;
+    top: -0.8em;
+    left: 10.9em;
 }
+
 
 /* customer review sections and divs */
 
@@ -140,38 +140,42 @@ button {
 }
 
 .reviews {
-    margin: 6% 0;
-    height: 400px;
+    margin: 4em 0;
+    height: 28em;
     width: 100%;
     font-family: 'Lora', serif;
 }
 
 .reviews h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
     color: #E67204;
+    text-align: center;
+    margin: 1.5em 0 0.5em 0;
 }
 
 .reviews img {
-    padding: 1% 0;
-    max-height: 110px;
+    padding: 1em 0;
+    max-height: 11em;
     width: auto;
-    border-radius: 50px;
+    border-radius: 50%;
     position: relative;
-    top: 0px;
-    left: 160px;
+    left: 9em;
 }
 
 .reviews h3 {
     text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .reviews div {
     float: left;
     width: 31.33%;
-    margin: 0 1%;
-    padding: 1% 2%;
-    border-radius: 10px;
+    margin: 0 0.7em;
+    padding: 1em 1.5em;
+    border-radius: 1em;
 }
 
 .reviews span {
@@ -185,45 +189,49 @@ button {
 .finalSection {
     background-color: black;
     color: white;
-    height: 400px;
+    height: 33em;
     font-family: 'Lora', serif;
+    font-size: 10px;          /*parent container's font-size*/
+    overflow: hidden;
 }
 
 .finalSection li {
     list-style: none;
     float: left;
-    width: 3vw;
-    margin: 1vw 0;
+    width: 5em;
+    margin: 1em 0;
 }
 
 .finalSection i {
     color: white;
-    max-height: 10px;
-    width: auto;
+    font-size: 2em;
 }
 
 .finalSection h2 {
     clear: both;
-    margin: 2em 0 0.6em 0;
+    margin: 0.2em 0 0.4em 0;
     font-weight: bold;
     color: #E67204;
+    font-size: 3em;
 }
 
 /* bottom box divs */
 .partOne {
-    padding: 5% 6% 6% 6%;
+    padding: 5em 0 0 8em;
     width: 50%;
     height: auto;
 }
 
 .partTwo {
-    padding: 6% 5% 6% 30%;
+    padding: 2.5em 0 0 26.5em;
     width: 50%; 
     height: auto;
+    font-size: 1.5em;
 }
 
 .partOne p {
     width: 50%;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -257,4 +265,8 @@ footer {
 
 .finalSection i:hover {
     font-size: 1.5vw;
+}
+
+.booklists div:hover {
+    box-shadow: 1px 1px 5px gray;
 }

@@ -6,18 +6,18 @@
 
 header {
     width: 100%;
-    height: 70px;
+    height: 79px;
     font-size: 1em;
     font-family: 'Lora', serif;
 }
 
 header img{
     float: left;
-    padding-left: 50px;
+    padding-left: 140px;
     margin: 8px 0;
     display: block;
-    height: 53px;
-    width: 190px;
+    width: 300px;
+    height: auto;
 }
 
 div {
@@ -111,7 +111,7 @@ h1 {
 }
 
 #message-box {
-    margin: 0 2%;
+    margin: 0 1%;
     height: 200px;
     width: 58%;
     font-family: 'Lora', serif;

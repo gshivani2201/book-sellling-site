@@ -1,23 +1,23 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* header */
-header {
+header {             /*parent container*/
     width: 100%;
-    height: 70px;
+    height: 5em;
     font-size: 1em;
     font-family: 'Lora', serif;
 }
 
 header img{
     float: left;
-    padding-left: 50px;
-    margin: 8px 0;
-    display: block;
-    height: 53px;
-    width: 190px;
+    padding-left: 8em;
+    margin: 0.5em 0;
+    max-width: 18em;
+    height: auto;
 }
 
 div {
@@ -28,23 +28,19 @@ div {
 nav {
     width: 40%;
     float: left;
-    padding-left: 150px;
+    padding-left: 8em;
 }
 
 li {
     float: left;
     width: 20%;
     list-style: none;
-    margin: 24px 0;
+    margin: 1.8em 0;
 }
 
 header a {
     color: black;
     text-decoration: none;
-}
-
-header i {
-    margin-left: 50%
 }
 
 
@@ -58,54 +54,178 @@ header i {
     background-size: 100%;
 } */
 
-main {
-    height: 650px;
-    float: left;
-    width: 100%;
+main {                  /*parent container*/
+    min-height: 65em;
+    max-width: 100%;
     background-image: url(../images/books-shelf.jpg);
-    background-size: 100%;
+    background-size: cover;
     color: white;
-    font-size: 10px;
+    font-size: 10px;    /*parent container's font size*/
 }
 
 h1 {
-    margin: 10% 0 .5% 24%;
-    text-shadow: 0 0 50px black;
+    padding: 4em 0 0 6.2em;
+    text-shadow: 0 0 3em black;
     font-family: 'Merriweather', serif;
     font-size: 5em;
 }
 
 p {
-    margin: .5% 24%;
-    text-shadow: 0 0 50px black;
+    margin: 0.4em 15.6em;
+    text-shadow: 0 0 3em black;
     font-family: 'Lora', serif;
     font-size: 2em;
 }
 
 /* SEARCH BAR */
 input {
-    height: 60px;
+    height: 3.5em;
     width: 55%;
     font-size: 2em;
-    margin: .5% 0;
     font-style: italic;
-    padding-left: 10px;
+    padding-left: 0.5em;
 }
 
 .fa-magnifying-glass {
-    position: absolute;
-    left: 75%;
-    top: 355px;
+    position: relative;
+    left: -2em;
+    top: 0.2em;
     color: gray;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 label {
-    margin: 0 .5% 0 13%;
+    margin: 0 0.2em 0 7em;
     font-size: 2.5em;
-    text-shadow: 1px 1px 20px black;
+    text-shadow: 0 0 1.5em black;
 }
 
+
+/* media queries */
+
+@media (max-width: 1000px) and (min-width: 600px) {
+    /* HEADER */
+    header {             /*parent container*/
+        height: 4em;
+        font-size: 0.9em;
+    }
+    
+    header img{
+        padding-left: 3em;
+        max-width: 10.5em;
+    }
+    div {
+        width: 50%;
+    }
+
+    nav {
+        width: 50%;
+        padding-left: 0;
+    }
+    
+    li {
+        width: 28.6%;
+        margin: 1.4em 0;
+    }
+    
+
+    /* MAIN SECTION */
+    main {                  /*parent container*/
+        min-height: 58.1em;
+        font-size: 10px;    /*parent container's font size*/
+    }
+    
+    h1 {
+        padding: 3em 0 0 4em;
+        font-size: 4em;
+    }
+    
+    p {
+        margin: 0.5em 10.2em;
+        font-size: 1.6em;
+    }
+    
+    /* SEARCH BAR */
+    input {
+        height: 3em;
+        width: 50%;
+        font-size: 1.8em;
+        padding-left: 0.4em;
+    }
+    
+    .fa-magnifying-glass {
+        position: relative;
+        left: -2em;
+        top: 0.1em;
+        font-size: 2em;
+    }
+    
+    label {
+        margin: 0 0.2em 0 2em;
+        font-size: 2.2em;
+    }
+    
+}
+
+@media (min-width: 100px) and (max-width: 599px) {
+    header {             /*parent container*/
+        height: 4em;
+        font-size: 0.9em;
+    }
+    
+    header img{
+        padding-left: 1em;
+        max-width: 8em;
+    }
+    div {
+        width: 30%;
+    }
+
+    nav {
+        width: 70%;
+        padding-left: 0;
+    }
+    
+    li {
+        width: 30%;
+        margin: 1.4em 0;
+    }
+
+
+    /* MAIN SECTION */
+    main {                  /*parent container*/
+        min-height: 80em;
+        font-size: 8px;    /*parent container's font size*/
+    }
+    
+    h1 {
+        padding: 4em 0 0 3.3em;
+    }
+    
+    p {
+        margin: 0.5em 0 0.5em 8.3em;
+    }
+    
+    /* SEARCH BAR */
+    input {
+        height: 3em;
+        width: 50%;
+        font-size: 1.8em;
+        padding-left: 0.4em;
+    }
+    
+    .fa-magnifying-glass {
+        position: relative;
+        left: -2em;
+        top: 0.1em;
+        font-size: 2em;
+    }
+    
+    label {
+        margin: 0 0.2em 0 2em;
+        font-size: 2.2em;
+    }
+}
 
 
 
