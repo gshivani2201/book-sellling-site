@@ -4,23 +4,23 @@
     padding: 0;
 }
 
-header {
+/* header */
+header {             /*parent container*/
     width: 100%;
-    height: 79px;
+    height: 5em;
     font-size: 1em;
     font-family: 'Lora', serif;
 }
 
 header img{
     float: left;
-    padding-left: 140px;
-    margin: 8px 0;
-    display: block;
-    width: 300px;
+    padding-left: 8em;
+    margin: 0.5em 0;
+    max-width: 18em;
     height: auto;
 }
 
-div {
+header div {
     width: 60%;
     float: left;
 }
@@ -28,14 +28,14 @@ div {
 nav {
     width: 40%;
     float: left;
-    padding-left: 150px;
+    padding-left: 8em;
 }
 
 li {
     float: left;
     width: 20%;
     list-style: none;
-    margin: 24px 0;
+    margin: 1.8em 0;
 }
 
 header a {
@@ -43,25 +43,30 @@ header a {
     text-decoration: none;
 }
 
-header i {
-    margin-left: 50%
+/* middle sections */
+
+.container {
+    font-size: 10px;
+    background-color: #E67204;
 }
 
-/* middle sections */
 h1 {
-    height: 100px;
     color: white;
     background-color: #E67204;
     text-align: center;
-    padding-top: 2%;
+    padding: 0.5em 0;
     font-family: 'Lora', serif;
-    font-size: 3em;
+    font-size: 5em;
 }
 
-.fNDiv {
+form {
+    font-size: 1.2em;
+}
+
+.fNDiv {                     /*form*/
     width: 50%;
     float: left;
-    padding: 2% 2% 2% 20%;
+    padding: 2em 0 2em 28.5em;
     background-color: #E67204;
     color: white;
 }
@@ -69,23 +74,23 @@ h1 {
 .lNDiv {
     width: 50%;
     float: left;
-    padding: 2% 5% 2% 2%;
+    padding: 2em 0 2em 6em;
     background-color: #E67204;
     color: white;
 }
 
-#fName , #lName {
-    margin: 0 2%;
-    height: 50px;
-    width: 250px;
+#fName, #lName {                   /*input*/
+    height: 9vh;
+    width: 15vw;
     font-family: 'Lora', serif;
-    padding: 0 1vw;
+    padding: 0 1em;
     border: none;
-    border-radius: 10px;
+    border-radius: 1em;
+    margin: 0 0.5em;
 }
 
 .mail {
-    padding: 2% 2% 2% 18%;
+    padding: 2em 0 2em 26em;
     float: left;
     width: 100%;
     background-color: #E67204;
@@ -93,7 +98,7 @@ h1 {
 }
 
 .mBox {
-    padding: 2% 2% 2% 16%;
+    padding: 1em 1em 1em 22em;
     float: left;
     width: 100%;
     background-color: #E67204;
@@ -101,42 +106,38 @@ h1 {
 }
 
 #email-ad {
-    margin: 0 2%;
-    height: 50px;
+    margin: 1em 1em;
+    height: 9vh;
     width: 60%;
     font-family: 'Lora', serif;
-    padding: 0 1vw;
+    padding: 0 1em;
     border: none;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 #message-box {
-    margin: 0 1%;
-    height: 200px;
+    margin: 1em 0 1em 1em;
+    height: 30vh;
     width: 58%;
     font-family: 'Lora', serif;
-    padding: 0 1vw 9vw 1vw;
+    padding: 0 1em 11em 1em;
     border: none;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 label {
     font-family: 'Lora', serif;
+    font-size: 1.6em;
 }
 
 /* button */
 
-form + div {
-    background-color: #E67204;
-    width: 100%;
-}
-
 #btn-box {
     color: #E67204;
-    font-size: 1rem;
+    font-size: 1.6em;
     background-color: white;
-    margin: 0 0 3% 27%;
-    padding: 7px;
+    margin: 1em 0 2em 30em;
+    padding: 0.5em;
     border: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -147,22 +148,22 @@ form + div {
 .finalSection {
     background-color: black;
     color: white;
-    height: 400px;
+    max-width: 100%;
+    height: 55vh;
     font-family: 'Lora', serif;
-    clear: both;
+    float: left;
 }
 
 .finalSection li {
     list-style: none;
     float: left;
-    width: 10%;
-    margin: 1% 0;
+    width: 5vw;
+    margin: 0.5em 0;
 }
 
 .finalSection i {
     color: white;
-    max-height: 10px;
-    width: auto;
+    font-size: 1.2em;
 }
 
 .finalSection h2 {
@@ -170,19 +171,22 @@ form + div {
     margin: 2em 0 0.6em 0;
     font-weight: 600;
     color: #E67204;
+    font-size: 2em;
 }
 
 /* bottom box divs */
 .partOne {
-    padding: 5% 6% 6% 6%;
+    padding: 5em 1em 0 6em;
     width: 50%;
     height: auto;
+    float: left;
 }
 
 .partTwo {
-    padding: 6% 5% 6% 30%;
+    padding: 5em 7em 3em 27em;
     width: 50%; 
     height: auto;
+    float: left;
 }
 
 .partOne p {
@@ -190,7 +194,7 @@ form + div {
 }
 
 h4 {
-    margin: 4% 0;
+    margin: 0.7em 0;
     font-weight: 400;
 }
 
@@ -199,16 +203,162 @@ h4 {
     text-decoration: none;
 }
 
-.partTwo p {
-    margin: 2% 0;
-}
 
 /* footer */
 footer {
-    height: 50px;
-    padding: 1vw;
+    height: 10vh;
+    padding: 1em;
     text-align: center;
     background-color: black;
     color: white;
     font-family: 'Lora', serif;
+    clear: both;
 }
+
+.finalSection i:hover {
+    font-size: 1.5em;
+}
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+    header {             /*parent container*/
+        height: 4em;
+        font-size: 0.9em;
+    }
+    
+    header img{
+        padding-left: 1em;
+        max-width: 8em;
+    }
+    header div {
+        width: 30%;
+    }
+
+    nav {
+        width: 70%;
+        padding-left: 0;
+    }
+    
+    li {
+        width: 30%;
+        margin: 1.4em 0;
+    }
+
+    /* middle sections */
+
+    h1 {
+        padding: 0.5em 0;
+        font-size: 3.5em;
+    }
+
+    form {
+        font-size: 1.2em;
+        border: 1px solid red;
+    }
+
+    .fNDiv, .lNDiv {                     /*form*/
+        width: 100%;
+        float: none;
+        clear: both;
+        padding: 1em 0 1em 2em;
+    }
+
+    #fName, #lName {                   /*input*/
+        height: 9vh;
+        width: 60%;
+    }
+
+    #email-ad, #message-box {
+        width: 84%;
+    }
+
+    .mail {
+        padding: 0.5em 0 0.5em 2em;
+    }
+
+    .mBox {
+        padding: 0.5em 0 0.5em 2em;
+        overflow: hidden;
+    }
+
+    label {
+        font-size: 1.3em;
+    }
+
+    /* button */
+
+    #btn-box {
+        font-size: 1.3em;
+        margin: 1em 0 2em 4em;
+    }
+
+    /* bottom box */
+    .finalSection {
+        height: 43vh;
+        overflow: hidden;
+    }
+
+    .finalSection i {
+        font-size: 0.7em;
+    }
+
+    .finalSection h2 {
+        margin: 1em 0 0.3em 0;
+        font-size: 1.4em;
+    }
+
+    /* bottom box divs */
+    .partOne, .partTwo {
+        padding: 1em 1em 0 1.5em;
+        width: 100%;
+        float: none;
+    }
+
+    .partOne p {
+        width: 100%;
+    }
+
+    p, h4, footer {
+        font-size: 0.7em;
+    }
+
+
+    /* footer */
+    footer {
+        height: 8vh;
+        font-size: 0.9em;
+        padding: 1em 3em;
+    }
+
+    .finalSection i:hover {
+        font-size: 1em;
+    }
+
+} 
+
+@media (min-width: 100px) and (max-width: 399px) {
+
+    header {             /*parent container*/
+        font-size: 0.7em;
+        height: 4em;
+    }
+    
+    header img{
+        padding-left: 1em;
+        max-width: 8em;
+    }
+    header div {
+        width: 30%;
+    }
+
+    nav {
+        width: 70%;
+        padding-left: 0;
+    }
+    
+    li {
+        width: 30%;
+        margin: 1.4em 0;
+    }
+
+} 
