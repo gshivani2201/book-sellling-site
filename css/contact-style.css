@@ -334,30 +334,3 @@ footer {
     }
 
 } 
-
-@media (min-width: 100px) and (max-width: 399px) {
-
-    header {             /*parent container*/
-        font-size: 0.7em;
-        height: 4em;
-    }
-    
-    header img{
-        padding-left: 1em;
-        max-width: 8em;
-    }
-    header div {
-        width: 30%;
-    }
-
-    nav {
-        width: 70%;
-        padding-left: 0;
-    }
-    
-    li {
-        width: 30%;
-        margin: 1.4em 0;
-    }
-
-} 
