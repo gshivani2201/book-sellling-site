@@ -144,7 +144,7 @@ button {
 
 .reviews {
     margin: 4em 0;
-    height: 28em;
+    height: 32em;
     width: auto;
     font-family: 'Lora', serif;
 }
@@ -272,7 +272,7 @@ footer {
 
     header {             
         height: 4em;              /*parent container*/
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     
     header img{

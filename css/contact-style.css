@@ -223,7 +223,7 @@ footer {
 @media (min-width: 200px) and (max-width: 600px) {
     header {             /*parent container*/
         height: 4em;
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     
     header img{
