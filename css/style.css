@@ -45,15 +45,6 @@ header a {
 
 
 /* main */
-/* main {
-    height: 650px;
-    background-image: url(D:/My%20projects/Book%20selling%20site/images/books-shelf.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */
-
 main {                  /*parent container*/
     min-height: 65em;
     max-width: 100%;
