@@ -178,6 +178,8 @@ button {
 .reviews div {
     float: left;
     width: 31.33%;
+    height: auto;
+    border: 1px solid black;
     margin: 0 0.7em;
     padding: 1em 1.5em;
     border-radius: 1em;
@@ -360,8 +362,8 @@ footer {
     .reviews div {
         float: none;
         width: 100%;
-        margin: 0;
-        padding: 0;
+        margin: 1em 0;
+        padding: 0 1em;
     }
 
     /* bottom box */
